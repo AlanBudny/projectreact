@@ -1,0 +1,59 @@
+/* Contact.css */
+.contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px; /* Add padding to ensure the form doesn't touch the viewport edges */
+    background-color: rgba(0, 0, 0, 0.5); /* Add semi-transparent background */
+  }
+  
+  .contact-form {
+    background: $behindtext; /* Semi-transparent white background */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    box-sizing: border-box; /* Ensure padding is included in the element's total width and height */
+  }
+  
+  .contact-form h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  
+  .contact-form div {
+    margin-bottom: 15px;
+  }
+  
+  .contact-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+  }
+  
+  .contact-form button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    background-color: $button;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .contact-form button:hover {
+    background-color: $button2;
+  }
+  

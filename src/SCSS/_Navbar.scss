@@ -1,0 +1,23 @@
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: $navbar;
+  }
+  
+  .navbar a {
+    color: $navbartext;
+    padding: 14px 20px;
+    text-decoration: none;
+  }
+  
+  .navbar a:hover {
+    background-color: $navbar2;
+    color: $navbartext2;
+  }
+  
+  @media (max-width: 600px) {
+    .navbar {
+      flex-direction: column;
+    }
+  }
+  
